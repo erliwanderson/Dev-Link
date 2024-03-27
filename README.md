@@ -33,4 +33,3 @@ Permite aos usuários autenticados configurar suas redes sociais, fornecendo os 
     <source src="https://raw.githubusercontent.com/erliwanderson/dev-link/master/public/video-devLink.mp4" type="video/mp4">
   </video>
 </div>
-
