@@ -29,7 +29,5 @@ Permite aos usuários autenticados configurar suas redes sociais, fornecendo os 
 ## Resultado final
 
 <div align="center">
-  <video width="420" height="360" controls>
-    <source src="https://raw.githubusercontent.com/erliwanderson/dev-link/master/public/video-devLink.mp4" type="video/mp4">
-  </video>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/mtqTAV8VbPo" frameborder="0" allowfullscreen></iframe>
 </div>
