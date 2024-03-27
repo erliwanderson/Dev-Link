@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
+# DevLink
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DevLink é uma aplicação web que permite aos usuários criar uma página pessoal com links para suas redes sociais, portfólio e outros links importantes. Os usuários podem se autenticar, adicionar e excluir links e configurar suas redes sociais.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Firebase (Firestore, Authentication)
+- Tailwind CSS
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Página Inicial (Home)
 
-- Configure the top-level `parserOptions` property like this:
+A página inicial exibe os links adicionados pelos usuários em forma de botões. Além disso, exibe links para as redes sociais do usuário, se configurados.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Página de Administração (Admin)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Na página de administração, os usuários autenticados podem adicionar novos links, personalizando o nome, URL, cor do texto e cor de fundo. Também é possível excluir links existentes.
+
+### Página de Login
+
+Página de login para autenticação de usuários.
+
+### Página de Configuração de Redes Sociais (Networks)
+
+Permite aos usuários autenticados configurar suas redes sociais, fornecendo os respectivos links.
+
+## Resultado final
+
+<div align="center">
+  <video width="420" height="360" controls>
+    <source src="./public/video-devLink.mp4" type="video/mp4">
+  </video>
+</div>
