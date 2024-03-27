@@ -30,6 +30,7 @@ Permite aos usuários autenticados configurar suas redes sociais, fornecendo os 
 
 <div align="center">
   <video width="420" height="360" controls>
-    <source src="./public/video-devLink.mp4" type="video/mp4">
+    <source src="https://raw.githubusercontent.com/erliwanderson/dev-link/master/public/video-devLink.mp4" type="video/mp4">
   </video>
 </div>
+
