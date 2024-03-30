@@ -1,10 +1,12 @@
 # DevLink
 
-DevLink é uma aplicação web que permite aos usuários criar uma página pessoal com links para suas redes sociais, portfólio e outros links importantes. Os usuários podem se autenticar, adicionar e excluir links e configurar suas redes sociais.
+DevLink é uma aplicação web que possibilita a criação de uma página pessoal customizada, contendo links para suas redes sociais, portfólio e outros recursos essenciais. Com recursos de autenticação integrados, você pode facilmente adicionar, excluir e configurar seus links, além de ajustar as configurações das suas redes sociais. DevLink oferece uma maneira simples e conveniente de organizar sua presença online de forma personalizada e eficiente.
 
 ## Tecnologias Utilizadas
 
+- TypeScript
 - React
+- React Router
 - Firebase (Firestore, Authentication)
 - Tailwind CSS
 
